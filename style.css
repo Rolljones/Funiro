@@ -216,6 +216,7 @@ main .browse > .parent-browse .image > p {
     background-color: #FFFFFF;
     text-align: center;
     width: 100%;
+    font-weight: 500;
 }
 
 main .browse > .parent-browse .text {
@@ -669,7 +670,7 @@ footer .last-footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 370px 370px 370px 370px;
-        gap: 50px 50px;
+        gap: 5rem;
     }
 
     main .beautiful {
@@ -706,6 +707,13 @@ footer .last-footer {
         flex-wrap: wrap;
         border: 1.5px solid #cacaca;
         gap: 6rem;
+    }
+
+    .last-footer .third-row > form input {
+        border: none;
+        background-color: #F4F5F7; 
+        color: #484848;
+        padding: 0.5rem 1rem;
     }
 
 }
@@ -835,7 +843,7 @@ footer .last-footer {
         grid-template-columns: 1fr;
         grid-template-rows: 370px 370px 370px 370px 370px 370px 370px 370px;
         gap: 30px;
-        padding:3rem 40px 0 40px;
+        padding:3rem 0;
     }
 
     main .beautiful {
@@ -872,5 +880,12 @@ footer .last-footer {
         gap:3rem 15rem;
         flex-wrap: wrap;
         border: 1.5px solid #cacaca;
+    }
+
+    .last-footer .third-row > form input {
+        border: none;
+        background-color: #F4F5F7; 
+        color: #484848;
+        padding: 0.5rem 1rem;
     }
 }
